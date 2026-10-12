@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 1m
+app:
+  repository-type: memory # change to mock for question 36
+logging:
+  level:
+    root: INFO
